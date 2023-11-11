@@ -35,7 +35,7 @@ const VideoCard = ({ data }: VideoCardProps) => {
                 allowFullScreen
                 loading="lazy"
               >
-                <p>Error | 404</p>
+                No available link.
               </iframe>
             </div>
           </AlertDialogHeader>
