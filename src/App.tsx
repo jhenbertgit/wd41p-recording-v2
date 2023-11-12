@@ -5,17 +5,15 @@ import VideoList from "./components/VideoList";
 import Container from "./components/ui/Container";
 import { videoData } from "./data";
 
-const meta = Meta({
-  title: "Kodego | WD41-P",
-  author: "Jhenbert Villamucho",
-  keywords: "Kodego, part-time, video recording, bootcamp",
-  description: "Compilation of video recording of Kodego Batch WD41-P",
-});
-
 function App() {
   return (
     <ThemeProvider defaultTheme="dark" storageKey="wd41p-ui-theme">
-      {meta}
+      <Meta
+        title="WD41-P | Kodego Bootcamp, Best Batch Ever"
+        description="Compilation of video recording of Kodego Bootcamp Batch WD41-P"
+        keywords="Kodego, web development, full stack, part-time, video, bootcamp, wd41p, wd41-p"
+        author="Jhenbert Villamucho"
+      />
       <Header />
       <Container>
         <div className="space-y-10 pb-10 mt-8">
